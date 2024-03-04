@@ -1,0 +1,7 @@
+# Ignore files and directories generated during the build process
+/Application-Code/backend/.scannerwork/
+/Application-Code/backend/dependency-check-report.xml
+/Application-Code/backend/trivyfs.txt
+/Kubernetes-Manifests-file/Backend@tmp/
+/trivyimage.txt
+
