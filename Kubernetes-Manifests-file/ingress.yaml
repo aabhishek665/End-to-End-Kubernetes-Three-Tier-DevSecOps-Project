@@ -5,7 +5,7 @@ metadata:
   namespace: three-tier
   annotations:
     alb.ingress.kubernetes.io/scheme: internet-facing
-    alb.ingress.kubernetes.io/subnets: "subnet-0e3b6bc76aeacb32b", "subnet-060754d2ff0755f02"
+    alb.ingress.kubernetes.io/subnets: subnet-0e3b6bc76aeacb32b, subnet-060754d2ff0755f02
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
 spec:
